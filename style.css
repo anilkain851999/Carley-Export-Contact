@@ -29,6 +29,7 @@ header#siteheader {
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 99;
 }
 header#siteheader ul.navbar-nav li.nav-item a {
   color: #525fe1;
@@ -126,6 +127,7 @@ h2.two_Color.text-center {
   font-size: 40px;
   font-weight: 900;
   line-height: 1.4;
+  color:#212529;
   font-family: 'Urbanist', sans-serif;
   position: relative;
 }
@@ -512,6 +514,67 @@ section#why_choose_us .main-timeline-4 .card-body p{
   background: transparent !important;
   border: none;
 }
+
+
+
+
+/* -------------------------------------
+               ABOUT US PAGE
+ --------------------------------------*/
+ section#about_hero {
+  background: linear-gradient(0deg, rgb(0 0 0 / 67%), rgb(0 0 0 / 78%)), url(img/about.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  position: relative;
+}
+section#Welcome_about {
+  padding: 100px 0;
+}
+section#about_hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 52px;
+}
+section#Welcome_about p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: roboto;
+  line-height: 1.67;
+  color: #6F6B80;
+}
+
+section#About_misson {
+  background: url(img/home-one-testimonial-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  position: relative;
+}
+section#About_misson .row {
+  display: flex;
+  align-items: center;
+}
+section#About_misson h3 {
+  color: #212529;
+  font-size: 38px;
+}
+section#About_misson p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: roboto;
+  line-height: 1.67;
+  color: #6F6B80;
+}
+ /* -------------------------------------
+               ABOUT US PAGE
+ --------------------------------------*/
 
 
 
