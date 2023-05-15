@@ -62,14 +62,14 @@ button:focus,
 
 /* section heading h2 */
 
-.section_title h2 {
+section.contact_form_section .section_title h1 {
     font-size: 40px;
     font-weight: 700;
     color: Blue;
     margin-bottom: 10px;
 }
 
-.section_title h2 span {
+section.contact_form_section .section_title h1 span {
     color: #391E6C;
 }
 
@@ -303,7 +303,9 @@ h3 {
     position: relative;
 }
 
-.contact_form_section .contact_inner .section_title h2 {}
+section#contact_us {
+    margin-bottom: 40px;
+}
 
 .contact_form_section .contact_inner .contact_form {
     position: relative;
