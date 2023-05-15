@@ -399,6 +399,9 @@ section#contact_us_content h5 {
     line-height: 32px;
     color: #625d5d;
 }
+input#mobile_code {
+    padding: 27px;
+}
 @media only screen and (max-width: 768px){
 .contact_list_section .contact_list_inner {
     display: inherit;
