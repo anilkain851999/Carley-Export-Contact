@@ -339,6 +339,7 @@ h3 {
 }
 a.hover_action:hover {
     color: #00f;
+    text-decoration: none;
 }
 .contact_form_section .contact_inner .contact_form form .form-group .form-control:focus {
     box-shadow: none;
